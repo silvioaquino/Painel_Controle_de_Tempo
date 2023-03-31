@@ -416,6 +416,7 @@ a {
     }
   }
 
+
 /*------------------------------*/
 
 .box_estudos1 {
@@ -434,7 +435,7 @@ a {
 .box_estudos1 .estudos_blocoA .estudos_image {
   width: 70px;
   height: 60px;
-  background-image: url(../images/icon-work.svg);
+  background-image: url(c);
   background-size: 100% 100%;
   position: absolute;
   top: -5px;
@@ -499,7 +500,7 @@ a {
     justify-content: space-between;
     align-items: center;
   }
-  .box_estudos1 .estudos_blocoB .estudos_blocoB .estudos_blocoB_texto {
+  .box_estudos1 .estudos_blocoB .estudos_blocoB, .estudos_blocoB_texto {
     color: white;
     font-weight: 400;
     font-size: 18px;
