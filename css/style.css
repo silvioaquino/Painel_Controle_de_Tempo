@@ -50,7 +50,7 @@ a {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
   grid-gap: 1em;
-  grid-template-areas: "box_principal   box_trabalho       box_lazer     box_estudos" "box_principal   box_exercicios   box_social1   box_saude";
+  grid-template-areas: "box_principal   box_trabalho  box_lazer  box_estudos" "box_principal   box_exercicios   box_social   box_saude";
 }
 .container .container1 .box_principal {
   padding: 10px 0px;
@@ -72,9 +72,9 @@ a {
   padding: 10px 0px;
   grid-area: box_exercicios;
 }
-.container .container1 .box_social1 {
+.container .container1 .box_social {
   padding: 10px 0px;
-  grid-area: box_social1;
+  grid-area: box_social;
 }
 .container .container1 .box_saude {
   padding: 10px 0px;
@@ -93,7 +93,7 @@ a {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(7, auto);
     grid-gap: 1em;
-    grid-template-areas: "box_principal   box_principal       box_principal     box_principal" "box_trabalho      box_trabalho          box_trabalho        box_trabalho" "box_lazer      box_lazer          box_lazer        box_lazer" "box_estudos     box_estudos         box_estudos       box_estudos" "box_exercicios  box_exercicios      box_exercicios    box_exercicios" "box_social1    box_social1        box_social1      box_social1" "box_saude  box_saude      box_saude    box_saude";
+    grid-template-areas: "box_principal   box_principal       box_principal     box_principal" "box_trabalho      box_trabalho          box_trabalho        box_trabalho" "box_lazer      box_lazer          box_lazer        box_lazer" "box_estudos     box_estudos         box_estudos       box_estudos" "box_exercicios  box_exercicios      box_exercicios    box_exercicios" "box_social    box_social        box_social      box_social" "box_saude  box_saude      box_saude    box_saude";
   }
 }
 /*
@@ -357,7 +357,7 @@ a {
     justify-content: space-between;
     align-items: center;
   }
-  .box_lazer1 .lazer_blocoB .lazer_blocoB1 .lazer_blocoB_texto {
+  .box_lazer1 .lazer_blocoB .lazer_blocoB1, .lazer_blocoB_texto {
     color: white;
     font-weight: 400;
     font-size: 18px;
@@ -466,7 +466,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.box_estudos1 .estudos_blocoB .estudos_blocoB .estudos_texto {
+.box_estudos1 .estudos_blocoB .estudos_blocoB, .estudos_blocoB_texto {
   color: white;
   font-weight: 400;
   font-size: 18px;
@@ -499,7 +499,7 @@ a {
     justify-content: space-between;
     align-items: center;
   }
-  .box_estudos1 .estudos_blocoB .estudos_blocoB .estudos_texto {
+  .box_estudos1 .estudos_blocoB .estudos_blocoB .estudos_blocoB_texto {
     color: white;
     font-weight: 400;
     font-size: 18px;
@@ -533,14 +533,14 @@ a {
   background: #4acf81;
   border-radius: 15px;
 }
-.box_exercicios1 .box_exercicios1_blockA {
+.box_exercicios1 .exercicios_blocoA {
   width: 100%;
   height: 15%;
   position: relative;
   z-index: 1;
   overflow: hidden;
 }
-.box_exercicios1 .box_exercicios1_blockA .box_exercicios1_blockA_image {
+.box_exercicios1 .exercicios_blocoA .exercicios_image {
   width: 70px;
   height: 60px;
   background-image: url(../images/icon-work.svg);
@@ -550,7 +550,7 @@ a {
   right: 10px;
   z-index: 1;
 }
-.box_exercicios1 .box_exercicios1_blockA .box_exercicios1_blockA_image {
+.box_exercicios1 .exercicios_blocoA .exercicios_image {
   width: 70px;
   height: 60px;
   background-image: url(../images/icon-exercise.svg);
@@ -586,7 +586,7 @@ a {
   font-size: 60px;
   font-weight: 300;
 }
-.box_exercicios1 .exercicios_blocoB .ultima_exercicios {
+.box_exercicios1 .exercicios_blocoB .ultimo_exercicios {
   color: #bdc1ff;
   font-size: 16px;
   font-weight: 300;
@@ -624,7 +624,7 @@ a {
   .box_exercicios1 .exercicios_blocoB .exercicios_blocoB_hrs .esp {
     color: #da0808;
   }
-  .box_exercicios1 .exercicios_blocoB .ultima_exercicios {
+  .box_exercicios1 .exercicios_blocoB .ultimo_exercicios {
     margin-top: 50px;
     float: right;
     width: 150px;
