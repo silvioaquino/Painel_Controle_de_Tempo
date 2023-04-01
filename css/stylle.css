@@ -365,7 +365,7 @@ a {
   font-weight: 400;
   font-size: 18px;
 }
-.box_lazer1 .lazer_blocoB .lazer_blocoB1 {
+.box_lazer1 .lazer_blocoB .lazer_hora {
   margin-top: 20px;
   color: white;
   font-size: 60px;
@@ -398,7 +398,7 @@ a {
     font-weight: 400;
     font-size: 18px;
   }
-  .box_lazer1 .lazer_blocoB .lazer_blocoB1 {
+  .box_lazer1 .lazer_blocoB .lazer_hora {
     margin-top: 20px;
     color: white;
     font-size: 60px;
@@ -474,7 +474,7 @@ a {
   font-weight: 400;
   font-size: 18px;
 }
-.box_estudos1 .estudos_blocoB .estudos_blocoB1 {
+.box_estudos1 .estudos_blocoB .estudos_hora {
   margin-top: 20px;
   color: white;
   font-size: 60px;
@@ -687,7 +687,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.box_social1 .social_blocoB .social_blocoB1 .box_social_blockB_box_text {
+.box_social1 .social_blocoB .social_blocoB1 .social_texto {
   color: white;
   font-weight: 400;
   font-size: 18px;
