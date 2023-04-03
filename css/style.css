@@ -138,7 +138,9 @@ a {
   background-image: url(../images/image-jeremy.png);
   background-size: 100% 100%;
   border: 2px solid white;
+  
 }
+
 .box_secundario .box_terciario .box_quarto {
   width: 100%;
   line-height: 30px;
@@ -152,7 +154,7 @@ a {
 .box_secundario .box_terciario .box_quarto .titlePeq_box {
   margin-top: 5px;
   font-weight: 300;
-  font-size: 35px;
+  font-size: 20px;
   color: white;
   line-height: 38px;
 }

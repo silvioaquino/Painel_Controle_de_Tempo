@@ -1,6 +1,6 @@
 [
   {
-    "title": "Work",
+    "title": "Trabalho",
     "timeframes": {
       "daily": {
         "current": 5,
@@ -18,7 +18,7 @@
   },
 
   {
-    "title": "Play",
+    "title": "Lazer",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -36,7 +36,7 @@
   },
 
   {
-    "title": "Study",
+    "title": "Estudos",
     "timeframes": {
       "daily": {
         "current": 0,
@@ -54,7 +54,7 @@
   },
 
   {
-    "title": "Exercise",
+    "title": "Exercicios",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -90,7 +90,7 @@
   },
   
   {
-    "title": "Self Care",
+    "title": "Saúde",
     "timeframes": {
       "daily": {
         "current": 0,
